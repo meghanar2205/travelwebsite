@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<title>Adventour travels</title>
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+		<link rel = "stylesheet" href = "C:\Users\sai\Desktop\Projects front end\Bootstrap\Travel website\css\adventour_stylings.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="C:\Users\sai\Desktop\Projects front end\css\parallax.js"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Farsan&display=swap" rel="stylesheet">
+		<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+		
+	</head>
+	<body>
+		<h1 class = "center" style = "color:red;">Debit Card payment page</h1><br><br>
+		<div id = "credit_card_list" style = "margin-left:20px;">
+				<h4>Select your credit type</h4><br>
+					<input type = "radio" name = "credit_card_name" onclick = "debitCardPaymentPage()">Visa<br>
+					<input type = "radio" name = "credit_card_name" onclick = "debitCardPaymentPage()">Mastercard<br>
+					<input type = "radio" name = "credit_card_name" onclick = "debitCardPaymentPage()">Rupay<br>
+					<input type = "radio" name = "credit_card_name" onclick = "debitCardPaymentPage()">Maestro<br>
+		</div>
+		<form id = "debitcardform">
+			<label class = "debitcardstylings">Card Number</label><br>
+			<input class = "debitcardstylings" type = "text" placeholder = "Enter your credit card Number" required autofocus><br><br>
+			<label class = "debitcardstylings">Name</label><br>
+			<input class = "debitcardstylings" type = "text" placeholder = "Enter your name as written on your card" required><br>
+			<p style = "color:gray;margin-left:20px;"><i>Example:If your name on the card is "Jack" don't enter as "JACK"<span style = "color:red"><i class="fa fa-times" aria-hidden="true"></i></span> or "jack"<span style = "color:red"><i class="fa fa-times" aria-hidden="true"></i></span>. Only "Jack"<span style = "color:green"><i class="fa fa-check" aria-hidden="true"></i> </span></i></p><br><br>
+			<label class = "debitcardstylings">Enter your card expiry</label><br>
+			<select style = "margin-left:20px;">
+				<option value = "1">01</option>
+				<option value = "2">02</option>
+				<option value = "3">03</option>
+				<option value = "4">04</option>
+				<option value = "5">05</option>
+				<option value = "6">06</option>
+				<option value = "7">07</option>
+				<option value = "8">08</option>
+				<option value = "9">09</option>
+				<option value = "10">10</option>
+				<option value = "11">11</option>
+				<option value = "12">12</option>
+			</select>
+			<select style = "margin-left:20px;">
+				<script>
+					for(i=2023;i<=4500;i++)
+					{
+						document.write('<option value = "">'+i+'</option>');
+					}
+				</script>
+			</select><br>
+			<label class = "debitcardstylings">Enter your cvv number</label><br>
+			<input type = "text" required><br><br><br>
+			<div class = "center">
+				<button class = "btn btn-success" onclick = "paymentFinalMessage()">Proceed to checkout</button>
+			</div>
+		</form>
+		<script src = "C:\Users\sai\Desktop\Projects front end\Bootstrap\Travel website\js\adventour_JS.js"></script>
+	</body>
+</html>

@@ -1,0 +1,194 @@
+*
+{
+	font-family: "Times New Roman", Times, serif;
+	margin:0;
+	padding:0;
+	border:0;
+	box-sizing:border-box;
+}
+body
+{
+	overflow-x:hidden;
+}
+.sz
+{
+	font-size:20px;
+}
+ul
+{
+	list-style-type:none;
+}
+ul li 
+{
+	margin-top:0px;
+	padding:20px;
+	display:inline-block;;
+}
+.navclr ul li a
+{
+	font-size:20px;
+	text-decoration:none;
+	color:white;
+}
+.lfty
+{
+	float:left;
+}
+.rgty
+{
+	float:right;
+}
+.bts
+{
+	margin-top:15px;
+	border-radius:20px;
+}
+header
+{
+	top:0;
+	right:0;
+	left:0;
+}
+
+.btst
+{
+	margin-top:0px;
+}
+.btst a
+{	
+	font-size:20px;
+	padding:20px 40px;
+	border:1px solid tranparent;
+	border-radius:200px;
+	background-color:white;
+	color:black;
+	text-decoration:none;
+}
+.btst a:hover
+{
+	text-decoration:none;
+	color:red;
+}
+#abtus
+{
+	
+	left:0;
+	right:0;
+	font-size:20px;
+}
+div.pkgs, #pkgs2
+{
+	right:0;
+	//margin-left:140px;
+	position:relative;
+}
+
+div.rev
+{
+	//width:800px;
+	text-align:center;
+}
+.footer
+{
+	margin:50px 0 -10px 0;
+	background:linear-gradient(to right,#0bdbd8,#3c0bdb);
+}
+.footer ul li a
+{
+	color:black;
+}
+.ftr
+{
+	width:900px;
+	color:black;
+}
+div.bkt
+{
+	margin-top:50px;
+	margin-bottom:20px;
+}
+.bxshd
+{
+	max-width:350px;
+	text-align:center;
+	margin:5px;
+	border:1px solid white;
+	box-shadow:3px 3px 8px black;
+}
+.rev>.row>.wdt
+{
+	max-width:300px;
+}
+.ftr .row .col-md-4 ul li
+{
+	padding:10px 0;
+	display:block;
+}
+#forpaymentdivstyle
+{
+	position:relative;
+}
+#demo
+{
+	position:absolute;	
+	margin:0 100px;
+	border:2px solid transparent;
+	box-shadow:2px 2px 5px black;
+	display:none;
+	//text-align:center;
+	z-index:2;
+	background-color:white;
+	//height:300px;
+	
+}
+.rev img
+{
+	height:100px;
+	width:100px;
+	border-radius:50%;
+	text-align:center;
+}
+#pay
+{
+	display:none;
+	text-align:center;
+	margin:auto auto;
+}
+.wdt
+{
+	max-width:300px;
+}
+#payment_modes
+{
+	display:none;
+}
+#creditcardform, #debitcardform
+{
+	display:none;
+}
+#creditcardpaymentlink
+{
+	display:none;
+}
+#debitcardpaymentlink
+{
+	display:none;
+}
+.creditcardstylings, .debitcardstylings
+{
+	font-size:20px;
+}
+form input
+{
+	border:1px solid black;
+	width:40%;
+	margin-left:20px;
+}
+form label
+{
+	margin-left:20px;
+}
+.center
+{
+	text-align:center;
+}
